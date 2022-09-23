@@ -335,7 +335,7 @@ img {
 }
 
 .register-form-group {
-    margin-bottom: 17px;
+    margin-bottom: 20px;
 }
 
 .register-form-field {
@@ -415,7 +415,7 @@ img {
     display: flex;
     gap: 8px;
     align-items: center;
-    justify-content: left;
+    justify-content: center;
     margin-bottom: 30px;
 }
 
@@ -708,7 +708,6 @@ img {
 .footer-container {
     display: flex;
     align-items: baseline;
-    justify-content: space-between;
 }
 
 .footer-logo {
@@ -753,6 +752,14 @@ img {
     color: var(--accent-txt-cl);
 }
 
+.footer-logo-adress {
+    margin-right: 70px;
+}
+
+.footer-socials {
+    margin-right: 93px;
+}
+
 .logo-adress-socials-title {
     margin-bottom: 20px;
     color: var(--light-txt-cl);
@@ -789,7 +796,7 @@ img {
 }
 
 .mailing-list-input {
-    width: 358px;
+    min-width: 358px;
     height: 50px;
     padding: 15px 16px;
     border: 1px solid var(--border-third-cl);
